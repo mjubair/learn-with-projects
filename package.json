@@ -18,7 +18,7 @@
 	},
 	"packageManager": "bun@1.2.4",
 	"workspaces": [
-		"apps/*",
+		"apps/great-frontend-projects/*",
 		"packages/*"
 	]
 }
