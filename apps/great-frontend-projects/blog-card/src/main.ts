@@ -1,0 +1,1 @@
+console.log('Blog Card Project Initialized');
