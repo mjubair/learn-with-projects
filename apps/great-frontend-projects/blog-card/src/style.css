@@ -21,11 +21,13 @@
   font-display: swap;
 }
 
-[class^="ri-"], [class*=" ri-"] {
-  font-family: 'remixicon' !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+[class^="ri-"],
+[class*=" ri-"] {
+	/* biome-ignore lint/complexity/noImportantStyles: library code */
+	font-family: "remixicon", sans-serif !important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .ri-lg { font-size: 1.3333em; line-height: 0.75em; vertical-align: -.0667em; }
