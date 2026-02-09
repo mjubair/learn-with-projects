@@ -9,7 +9,7 @@ function App() {
 			<div className="flex justify-center items-center">
 				<Card className="flex flex-col items-center">
 					<Avatar imageUrl={avatar} />
-					<h2 className="text-[20px] font-bold mt-6">Sarah Dole</h2>
+					<h2 className="text-[20px] mt-6">Sarah Dole</h2>
 					<p className="text-gray-600 mt-1">Front End Engineer @ Microsoft</p>
 					<p className="text-gray-600 mt-6 text-center">
 						I turn coffee into bugs which are fixed by someone else. Certified
