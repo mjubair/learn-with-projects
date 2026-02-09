@@ -10,7 +10,9 @@ function App() {
 				<Card className="flex flex-col items-center">
 					<Avatar imageUrl={avatar} />
 					<h2 className="text-[20px] mt-6">Sarah Dole</h2>
-					<p className="text-gray-600 text-sm">Front End Engineer @ Microsoft</p>
+					<p className="text-gray-600 text-sm mt-0.5">
+						Front End Engineer @ Microsoft
+					</p>
 					<p className="text-gray-600 mt-6 text-center text-[16px]">
 						I turn coffee into bugs which are fixed by someone else. Certified
 						Stack Overflow and ChatGPT developer.
@@ -22,10 +24,10 @@ function App() {
 						Contact me
 					</button>
 					<div className="flex gap-9 mt-6">
-						<RiGithubFill className="w-5 h-5 mt-4 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiLinkedinFill className="w-5 h-5 mt-4 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiInstagramFill className="w-5 h-5 mt-4 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiXboxFill className="w-5 h-5 mt-4 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiGithubFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiLinkedinFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiInstagramFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiXboxFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
 					</div>
 				</Card>
 
