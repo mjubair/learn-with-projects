@@ -23,11 +23,19 @@ function App() {
 					>
 						Contact me
 					</button>
-					<div className="flex gap-4 mt-6 p-2">
-						<RiGithubFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiLinkedinBoxFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiInstagramFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiTwitterXFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+					<div className="flex gap-4 mt-6">
+						<div className="p-2 text-2xl text-indigo-700 cursor-pointer">
+							<RiGithubFill className='w-5 h-5' />
+						</div>
+						<div className="p-2 text-2xl text-indigo-700 cursor-pointer">
+							<RiLinkedinBoxFill className='w-5 h-5' />
+						</div>
+						<div className="p-2 text-2xl text-indigo-700 cursor-pointer">
+							<RiInstagramFill className='w-5 h-5' />
+						</div>
+						<div className="p-2 text-2xl text-indigo-700 cursor-pointer">
+							<RiTwitterXFill className='w-5 h-5' />
+						</div>
 					</div>
 				</Card>
 
