@@ -1,7 +1,7 @@
 import Card from './components/card'
 import Avatar from './components/avatar.tsx'
 import avatar from './assets/profile.png'
-import { RiGithubFill, RiLinkedinFill, RiInstagramFill, RiXboxFill } from "@remixicon/react";
+import { RiGithubFill, RiLinkedinBoxFill, RiInstagramFill, RiTwitterXFill } from "@remixicon/react";
 
 function App() {
 
@@ -23,11 +23,11 @@ function App() {
 					>
 						Contact me
 					</button>
-					<div className="flex gap-9 mt-6 p-2">
+					<div className="flex gap-4 mt-6 p-2">
 						<RiGithubFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiLinkedinFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiLinkedinBoxFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
 						<RiInstagramFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
-						<RiXboxFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
+						<RiTwitterXFill className="w-5 h-5 text-2xl text-gray-600 hover:text-gray-800 cursor-pointer" />
 					</div>
 				</Card>
 
