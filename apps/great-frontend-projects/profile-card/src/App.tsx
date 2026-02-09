@@ -11,13 +11,13 @@ function App() {
 					<Avatar imageUrl={avatar} />
 					<h2 className="text-[20px] mt-6">Sarah Dole</h2>
 					<p className="text-gray-600 mt-1">Front End Engineer @ Microsoft</p>
-					<p className="text-gray-600 mt-6 text-center">
+					<p className="text-gray-600 mt-6 text-center text-[16px]">
 						I turn coffee into bugs which are fixed by someone else. Certified
 						Stack Overflow and ChatGPT developer.
 					</p>
 					<button
 						type="button"
-						className="mt-10 flex justify-center items-center gap-1.5 self-stretch bg-indigo-700 px-4 py-2.5 rounded text-white"
+						className="mt-10 flex justify-center items-center gap-1.5 self-stretch bg-indigo-700 px-4 py-2.5 rounded text-white text-[16px] hover:bg-indigo-800"
 					>
 						Contact me
 					</button>
