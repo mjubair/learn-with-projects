@@ -10,7 +10,7 @@ function App() {
 				<Card className="flex flex-col items-center">
 					<Avatar imageUrl={avatar} />
 					<h2 className="text-[20px] mt-6">Sarah Dole</h2>
-					<p className="text-gray-600 mt-1">Front End Engineer @ Microsoft</p>
+					<p className="text-gray-600 mt-1 text-sm">Front End Engineer @ Microsoft</p>
 					<p className="text-gray-600 mt-6 text-center text-[16px]">
 						I turn coffee into bugs which are fixed by someone else. Certified
 						Stack Overflow and ChatGPT developer.
