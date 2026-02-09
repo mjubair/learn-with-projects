@@ -17,7 +17,7 @@ function App() {
 					</p>
 					<button
 						type="button"
-						className="mt-10 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+						className="mt-10 flex justify-center items-center gap-1.5 self-stretch bg-indigo-700 px-4 py-2.5 rounded text-white"
 					>
 						Contact me
 					</button>
